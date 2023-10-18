@@ -1,18 +1,29 @@
-
 public abstract class Ticket
 {
-    public UInt64 id { get; set; }
-    public string summary { get; set; }
-    public string status { get; set; }
-    public string priority { get; set; }
-    public string submitter { get; set; }
-    public string assigned { get; set; }
-    public string watching { get; set; }
+    // Properties common to all tickets
+    public int Id { get; set; }
+    public string Summary { get; set; }
+    public string Status { get; set; }
+    public string Priority { get; set; }
+    public string Submitter { get; set; }
+    public string Assigned { get; set; }
+    public string Watching { get; set; }
 
-    internal bool Display()
+    // Constructor
+    public Ticket(int id, string summary, string status, string priority, string submitter, string assigned, string watching)
     {
-        throw new NotImplementedException();
+        Id = id;
+        Summary = summary;
+        Status = status;
+        Priority = priority;
+        Submitter = submitter;
+        Assigned = assigned;
+        Watching = watching;
     }
 
+    // method to be overridden in classes
+    public abstract string DisplayTickets();
 }
+
+
 

@@ -1,0 +1,5 @@
+C:\Users\kontr\dotnetDataBaseModule7Midterm\obj\Debug\net6.0\Ticket.csproj.AssemblyReference.cache
+C:\Users\kontr\dotnetDataBaseModule7Midterm\obj\Debug\net6.0\Ticket.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kontr\dotnetDataBaseModule7Midterm\obj\Debug\net6.0\Ticket.AssemblyInfoInputs.cache
+C:\Users\kontr\dotnetDataBaseModule7Midterm\obj\Debug\net6.0\Ticket.AssemblyInfo.cs
+C:\Users\kontr\dotnetDataBaseModule7Midterm\obj\Debug\net6.0\Ticket.csproj.CoreCompileInputs.cache
